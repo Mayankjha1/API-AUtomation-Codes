@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af7c91b-a4ae-44f1-ac01-30c1534ca83e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hello_World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Request_Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Testing002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Testing003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Testng00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Testng001.java" afterDir="false" />
-    </list>
+    <list default="true" id="4af7c91b-a4ae-44f1-ac01-30c1534ca83e" name="Changes" comment="New Automation Files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +150,31 @@
       <option name="presentableId" value="Default" />
       <updated>1712555978495</updated>
     </task>
+    <task id="LOCAL-00001" summary="New Automation Files">
+      <option name="closed" value="true" />
+      <created>1713347239812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713347239812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Automation Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Automation Files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API_Testing$Testing003.ic" NAME="Testing003 Coverage Results" MODIFIED="1713343679447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
