@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af7c91b-a4ae-44f1-ac01-30c1534ca83e" name="Changes" comment="New Automation Files" />
+    <list default="true" id="4af7c91b-a4ae-44f1-ac01-30c1534ca83e" name="Changes" comment="New Automation Files">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Testing004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
