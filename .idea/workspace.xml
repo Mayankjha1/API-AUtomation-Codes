@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af7c91b-a4ae-44f1-ac01-30c1534ca83e" name="Changes" comment="New Automation Files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Testing004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Ddt01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Files_Cred.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/UtilExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +43,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Hello_World.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.DDT01.executor": "Run",
+    "TestNG.DDT01.testLogin.executor": "Run",
+    "TestNG.DDT01.testLoginData.executor": "Run",
+    "TestNG.Ddt01.executor": "Run",
+    "TestNG.Ddt01.testLoginData.executor": "Debug",
     "TestNG.Request_Body.executor": "Run",
     "TestNG.Testing002.executor": "Run",
     "TestNG.Testing003.executor": "Run",
@@ -58,6 +68,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/org/example/Testng" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.Testng" />
     </key>
@@ -76,6 +89,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ddt01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Testng.Ddt01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ddt01.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Testng.Ddt01" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ddt01.testLoginData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Testng.Ddt01" />
+      <option name="METHOD_NAME" value="testLoginData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testing003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing" />
       <extension name="coverage">
@@ -87,24 +153,6 @@
       <option name="PACKAGE_NAME" value="org.example.Testng" />
       <option name="MAIN_CLASS_NAME" value="org.example.Testng.Testing003" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing003.getPutRequests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Testng" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Testng.Testing003" />
-      <option name="METHOD_NAME" value="getPutRequests" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,9 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Ddt01.testLoginData" />
+        <item itemvalue="TestNG.Ddt01" />
+        <item itemvalue="TestNG.Ddt01.testLogin" />
         <item itemvalue="TestNG.Testing003" />
         <item itemvalue="TestNG.Testing004.testPUTRequest" />
-        <item itemvalue="TestNG.Testing003.getPutRequests" />
       </list>
     </recent_temporary>
   </component>
