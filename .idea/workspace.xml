@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af7c91b-a4ae-44f1-ac01-30c1534ca83e" name="Changes" comment="New Automation Files">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Ddt01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Files_Cred.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/UtilExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Testng/Post_Req_Using_Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Testng/~$Files_Cred.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,10 @@
     "TestNG.DDT01.testLoginData.executor": "Run",
     "TestNG.Ddt01.executor": "Run",
     "TestNG.Ddt01.testLoginData.executor": "Debug",
+    "TestNG.PostReq_Using_Map.executor": "Run",
+    "TestNG.PostReq_Using_Map.getPostRequests (1).executor": "Debug",
+    "TestNG.PostReq_Using_Map.getPostRequests.executor": "Run",
+    "TestNG.Post_Req_Using_Map.executor": "Run",
     "TestNG.Request_Body.executor": "Run",
     "TestNG.Testing002.executor": "Run",
     "TestNG.Testing003.executor": "Run",
@@ -142,6 +144,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostReq_Using_Map.getPostRequests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Testng.PostReq_Using_Map" />
+      <option name="METHOD_NAME" value="getPostRequests" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testing003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing" />
       <extension name="coverage">
@@ -159,31 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing004.testPUTRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Testng" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Testng.Testing004" />
-      <option name="METHOD_NAME" value="testPUTRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostReq_Using_Map.getPostRequests" />
         <item itemvalue="TestNG.Ddt01.testLoginData" />
         <item itemvalue="TestNG.Ddt01" />
         <item itemvalue="TestNG.Ddt01.testLogin" />
         <item itemvalue="TestNG.Testing003" />
-        <item itemvalue="TestNG.Testing004.testPUTRequest" />
       </list>
     </recent_temporary>
   </component>
